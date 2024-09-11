@@ -79,7 +79,7 @@ const stacks = [
 export default () => {
   return (
     <div className="flex items-start justify-center p-4 md:p-5 xl:p-6 w-full h-full">
-      <ul className="grid grid-cols-4  gap-3 w-full">
+      <ul className="grid grid-cols-1 gap-4 md:grid-cols-3 xl:grid-cols-4 w-full">
         {stacks.map((stack) => {
           return (
             <li key={stack.name} className="flex items-center">
