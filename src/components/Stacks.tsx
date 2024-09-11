@@ -4,52 +4,86 @@ import { Simple } from "./icons";
 // TODO : update stacks
 const stacks = [
   {
-    name: "Figma",
-    category: "Design",
-    icon: Simple.IconFigma,
-    url: "https://www.figma.com",
+    name: "TypeScript",
+    category: "Language",
+    icon: Simple.IconTypeScript,
   },
   {
-    name: "Framer",
-    category: "Design",
-    icon: Simple.IconFramer,
-    url: "https://www.framer.com",
+    name: "Python",
+    category: "Language",
+    icon: Simple.IconPython,
   },
   {
-    name: "Rive",
-    category: "Design",
-    icon: Simple.IconRive,
-    url: "https://rive.app",
+    name: "React",
+    category: "Web",
+    icon: Simple.IconReact,
+    url: "#",
   },
   {
-    name: "Arc",
-    category: "Browser",
-    icon: Simple.IconArc,
-    url: "https://arc.net",
+    name: "Next.js",
+    category: "Web",
+    icon: Simple.IconNext,
+    url: "#",
   },
   {
-    name: "Notion",
-    category: "Productivity",
-    icon: Simple.IconNotion,
-    url: "https://www.notion.so",
+    name: "Expo",
+    category: "Mobile",
+    icon: Simple.IconExpo,
+    url: "#",
   },
   {
-    name: "Calendly",
-    category: "Calendar",
-    icon: Simple.IconCalendly,
-    url: "https://calendly.com",
+    name: "Node.js",
+    category: "Backend",
+    icon: Simple.IconNodeJS,
+    url: "#",
+  },
+  {
+    name: "Express.js",
+    category: "Backend",
+    icon: Simple.IconExpressJS,
+    url: "#",
+  },
+
+  {
+    name: "Docker",
+    category: "Backend",
+    icon: Simple.IconDocker,
+    url: "#",
+  },
+  {
+    name: "MongoDB",
+    category: "Database",
+    icon: Simple.IconMongoDB,
+    url: "#",
+  },
+  {
+    name: "PostgreSQL",
+    category: "Database",
+    icon: Simple.IconPostgreSQL,
+    url: "#",
+  },
+  {
+    name: "Jest",
+    category: "Testing",
+    icon: Simple.IconJest,
+    url: "#",
+  },
+  {
+    name: "AWS",
+    category: "Cloud",
+    icon: Simple.IconAWS,
+    url: "#",
   },
 ];
 
 export default () => {
   return (
-    <div className="flex items-center justify-center p-4 md:p-5 xl:p-6 w-full h-full">
-      <ul className="grid grid-cols-2 gap-3 w-full h-full">
+    <div className="flex items-start justify-center p-4 md:p-5 xl:p-6 w-full h-full">
+      <ul className="grid grid-cols-4  gap-3 w-full">
         {stacks.map((stack) => {
           return (
             <li key={stack.name} className="flex items-center">
-              <a
-                href={stack.url}
+              <div
                 className={cn(
                   "group",
                   "flex items-center justify-between px-4 py-3 w-full",
@@ -57,7 +91,6 @@ export default () => {
                   "outline-none border border-neutral-4 hover:border-neutral-6 rounded-3xl",
                   "focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-7 focus-visible:ring-offset-neutral-1"
                 )}
-                target="_blank"
                 aria-label="Open"
               >
                 <div className="flex flex-row items-stretch gap-5 pl-2">
@@ -75,7 +108,7 @@ export default () => {
                     </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </li>
           );
         })}

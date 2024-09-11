@@ -4,19 +4,19 @@ import { Simple } from "./icons";
 // TODO : update socials
 const socials = [
   {
-    href: "https://github.com",
+    href: "https://github.com/hassancodess",
     name: "GitHub",
     icon: Simple.IconGitHub,
   },
   {
-    href: "https://x.com",
+    href: "https://x.com/hassancodess",
     name: "X",
     icon: Simple.IconX,
   },
   {
-    href: "https://www.youtube.com",
+    href: "https://www.linkedin.com/in/hassancodess",
     name: "Youtube",
-    icon: Simple.IconYoutube,
+    icon: Simple.IconLinkedIn,
   },
 ];
 

@@ -48,8 +48,8 @@ const Globe = () => {
       markers: [
         {
           // TODO : update location. https://cobe.vercel.app/docs/api#markers
-          location: [-7.5360639, 112.2384017],
-          size: 0.1,
+          location: [33.56766528071767, 73.02123775467912],
+          size: 0.15,
         },
       ],
       onRender: (state) => {

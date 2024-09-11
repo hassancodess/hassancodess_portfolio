@@ -4,22 +4,22 @@ import { Lucide } from "./icons";
 // TODO : update projects
 const projects = [
   {
-    title: "astrolinkt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrolinkt",
+    title: "Home Decor App",
+    description: "Expo, React Native, Tamagui, Supabase",
+    icon: Lucide.IconGithub,
+    url: "https://github.com/hassancodess/home-decor-app",
   },
   {
-    title: "astrovehnt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrovehnt",
+    title: "Ecommerce API",
+    description: "Express.js, PrismaORM, Vitest, Docker",
+    icon: Lucide.IconGithub,
+    url: "https://github.com/hassancodess/ecommerce-api",
   },
   {
-    title: "astrobuckt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrobuckt",
+    title: "Jobspot App",
+    description: "Expo, React Native, Tamagui, Firebase",
+    icon: Lucide.IconGithub,
+    url: "https://github.com/hassancodess/jobspot-app",
   },
 ];
 

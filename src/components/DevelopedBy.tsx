@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 import { useTrail, animated } from "@react-spring/web";
 
-const text = "flamrdevs".split("");
+const text = "hassancodess".split("");
 
 export default () => {
   const [state, setState] = useState(true);
@@ -57,21 +57,6 @@ export default () => {
             <animated.span style={color[i]}>{text[i]}</animated.span>
           </animated.span>
         ))}
-      </div>
-
-      <div className="absolute inset-x-0 bottom-1 mb-8 font-mono text-neutral-10 text-xs text-center">
-        <span>
-          Developed by{" "}
-          <a
-            href="https://github.com/flamrdevs"
-            className="inline-block transition duration-300 hover:-translate-y-px outline-none hover:text-primary-10 focus-visible:text-primary-10"
-            target="_blank"
-            aria-label="Developer"
-          >
-            {" "}
-            flamrdevs
-          </a>
-        </span>
       </div>
     </div>
   );
