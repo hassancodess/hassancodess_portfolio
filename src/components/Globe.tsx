@@ -68,7 +68,7 @@ const Globe = () => {
 
   return (
     <div className="relative flex items-center justify-center w-full h-full">
-      <div className="relative w-full max-w-[900px] aspect-square m-auto">
+      <div className="relative w-full max-w-[300px] aspect-square m-auto">
         <canvas
           ref={ref}
           onPointerDown={(e) => {
