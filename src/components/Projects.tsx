@@ -12,7 +12,7 @@ const projects = [
   {
     title: 'OurMaids Inc.',
     description: 'Expo, Next.js, Express.js, Docker, DigitalOcean',
-    icon: Lucide.IconGithub,
+    icon: Lucide.IconSmartphone,
     url: 'https://apps.apple.com/us/app/our-maids-inc/id1626136656',
   },
   {
