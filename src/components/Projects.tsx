@@ -16,10 +16,10 @@ const projects = [
     url: 'https://apps.apple.com/us/app/our-maids-inc/id1626136656',
   },
   {
-    title: 'Jobspot App',
-    description: 'Expo, React Native, Tamagui, Firebase',
-    icon: Lucide.IconGithub,
-    url: 'https://github.com/hassancodess/jobspot-app',
+    title: 'FaithPad',
+    description: 'Expo, React Native, Tamagui, Supabase, Bitrise, AWS Lambda',
+    icon: Lucide.IconSmartphone,
+    url: 'https://www.faithpad.com/',
   },
 ]
 
