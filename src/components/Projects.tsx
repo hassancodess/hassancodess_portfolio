@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: 'FaithPad',
-    description: 'Expo, React Native, Tamagui, Supabase, Bitrise, AWS Lambda',
+    description: 'Expo, Tamagui, Supabase, Bitrise, AWS Lambda',
     icon: Lucide.IconSmartphone,
     url: 'https://www.faithpad.com/',
   },
