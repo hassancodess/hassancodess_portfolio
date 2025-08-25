@@ -19,7 +19,7 @@ const projects = [
     title: 'FaithPad',
     description: 'Expo, Tamagui, Supabase, Bitrise, AWS Lambda',
     icon: Lucide.IconSmartphone,
-    url: 'https://www.faithpad.com/',
+    url: 'https://apps.apple.com/gb/app/faith-pad/id6476572165',
   },
 ]
 
